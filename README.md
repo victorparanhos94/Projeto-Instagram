@@ -1,2 +1,2 @@
-# Projeto-Instagram
+# Projeto Instagram
  Pagina inicial do Instagram
