@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #fafafa;
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#botao-entrar {
+    
+    display: block;
+    margin: 13px auto;
+    background-color: #b2dffc;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    height: 30px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    right: 63px;
+    top: 100px;
+    transition: opacity 3000ms;
+}
+#slider img.selected{
+    opacity: 1;
+}
+
+
+.img-principal{
+    position: relative;
+}
+
+
+
+::-webkit-input-placeholder {
+    color: rgb(146, 146, 146);
+    font: 1.1rem verdana, arial, sans-serif;
+ }
+ 
+:-moz-placeholder {
+    color: rgb(146, 146, 146);
+    font: 1.1rem verdana, arial, sans-serif;
+ }
+ 
+::-moz-placeholder {
+    color: rgb(146, 146, 146);
+    font: 1.1rem verdana, arial, sans-serif;
+ }
+ 
+:-ms-input-placeholder {  
+    color: rgb(146, 146, 146);
+    font: 1.1rem verdana, arial, sans-serif;
+ }
+
+
+article {
+    
+    max-width: 935px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 32px auto 0 ;
+    
+    
+}
+#campo-login {
+    
+    padding: 10px 0;
+    margin-top: 12px;
+    width: 340px;
+          
+}
+
+#user, #senha{
+   
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 38px;
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+    padding: 9px 0px 7px 8px;
+    background-color: #FAFAFA;
+    
+}
+.oi2{
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #dbdbdb
+}
+.ou-ou{
+    
+   padding: 0 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   font-size: 1.2rem;
+   color: rgb(138, 138, 138);
+   font-weight: 600;
+   margin-bottom: 10px;
+   
+}
+
+.entrar-face{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.esqueceu-senha {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    
+    
+}
+.esqueceu-senha p {
+    color:#00376b
+}
+
+.entrar-com-face{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #385185;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#user:focus, #senha:focus{
+    border: 1px solid #a0a0a0;
+
+}
+.obtenha-app{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    
+}
+.cadastro{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap:5px;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.cadastre-se{
+    color: #0095f6;
+    font-weight: 600;
+    font-size: 1.4rem
+}
+.app-baixar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login {
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    height: 382px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cadastro {
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+    height: 63px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.baixar {
+    height: 102px;
+    
+    padding: 10px;
+}
+.instagram {
+   padding: 10px;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+.link-rodape{
+    font-size: 1.2rem;
+    color: #8E8E8E;
+    white-space: nowrap;
+    padding: 0 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+          
+}
+
+#secao-rodape1, #secao-rodape2{
+    margin: 6px 0;
+    padding: 0 5px;
+}
+
+#selecao-idioma{
+    outline: none;
+    border: none;
+    margin-right: 15px;  
+    font-size: 1.2rem;
+    color: #8E8E8E;
+    white-space: nowrap;   
+    background-color: #fafafa;   
+}
+
+#secao-rodape{
+    padding-top: 45px;
+    margin: 0 20px;
+}
+
+#secao-rodape1, #secao-rodape2, #rodape{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer{
+    padding-bottom: 52px;
+}
+#rodape {
+    padding-top: 10px
+}
+
+
+
+
+

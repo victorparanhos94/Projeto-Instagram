@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .img-principal{
+    display: none;
+}
+
+}  
+
+@media screen and (max-width: 425px){
+    html{
+        font-size: 58%;
+    }  
+    
+.login {
+    background-color: #fafafa;
+    border: none
+    
+}
+.cadastro {
+    background-color: #fafafa;
+    border: none;
+    
+}
+article {
+    margin-top: 0px;
+}
+#campo-login {
+    padding: 0px 0px;
+    margin-top: 0px;
+}
+
+}
+@media screen and (max-width: 304px) {
+    .app-baixar{
+        flex-wrap: wrap;
+    }
+}
+
+
+    
+
+
