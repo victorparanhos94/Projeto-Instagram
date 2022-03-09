@@ -1,25 +1,23 @@
-let time = 3000,
-inicial = 0,
-images = document.querySelectorAll("#slider img")
-max = images.length;
+let slider = document.querySelectorAll("#slider img");
+time = 3000
 
-function nextImage() {
+index = 0
+image = slider.length;
 
-    images[inicial].classList.remove("selected")
 
-    inicial++
+function show(){
+   
+    slider[index].classList.remove('selected')
 
-    if(inicial >= max)
-    inicial = 0
+    index++
 
-    images[inicial].classList.add("selected")
+    if(index >= image){
+        index = 0
+    }
+    
+    slider[index].classList.add("selected")
+   
+
 }
 
-function start() {
-    setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
-}
-
-window.addEventListener("load", start)
+setInterval(show, time)
